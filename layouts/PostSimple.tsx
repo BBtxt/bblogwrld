@@ -5,7 +5,7 @@ import { BlogSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
 import Comments from '@/components/comments'
-import ScrollTop from '@/components/ScrollTopAndComment'
+import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import { CoreContent } from '@/lib/utils/contentlayer'
 import { ReactNode } from 'react'
 import type { Blog } from 'contentlayer/generated'
@@ -23,7 +23,7 @@ export default function PostLayout({ content, next, prev, children }: Props) {
   return (
     <SectionContainer>
       <BlogSEO url={`${siteMetadata.siteUrl}/blog/${slug}`} {...content} />
-      <ScrollTop />
+      <ScrollTopAndComment />
       <article>
         <div>
           <header>
