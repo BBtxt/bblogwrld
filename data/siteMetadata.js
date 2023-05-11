@@ -14,6 +14,7 @@ const siteMetadata = {
   github: 'https://github.com/BBtxt',
   twitter: 'https://twitter.com/bblogwrld',
   linkedin: 'https://www.linkedin.com/in/bb00/',
+  instagram: 'https://instagram.com/bblog.world',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
