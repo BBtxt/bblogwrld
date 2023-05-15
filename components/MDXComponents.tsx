@@ -1,7 +1,5 @@
-/* eslint-disable react/display-name */
 import React from 'react'
 import { useMDXComponent } from 'next-contentlayer/hooks'
-import { ComponentMap } from 'mdx-bundler/client'
 import { coreContent } from '@/lib/utils/contentlayer'
 import Image from './Image'
 import CustomLink from './Link'
