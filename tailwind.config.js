@@ -26,8 +26,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        //@ts-ignore
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        Ubuntu: ['Ubuntu Mono', 'monospace'],
       },
       colors: {
         primary: colors.blue,
