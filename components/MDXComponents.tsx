@@ -23,6 +23,7 @@ const Wrapper = ({ layout, content, ...rest }: MDXLayout) => {
   return <Layout content={content} {...rest} />
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const MDXComponents: any = {
   Image,
   TOCInline,
